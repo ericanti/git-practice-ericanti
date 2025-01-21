@@ -1,0 +1,207 @@
+    1  git--version
+    2  git --version
+    3  git config --global use.name "Eric Antillon"
+    4  git config --global user.email "ericantilloncharles@gmail.com"
+    5  git config --global core editor "code --wait"
+    6  git config --global core.editor "code --wait"
+    7  git config --global init.defaultBranch main
+   14  git init
+   15  git add
+   16  git add .
+   17  mkdir gitVideo
+   18  cd gitVideo
+   21  git add .
+   22  git commit -m 'add html and css file'
+   25  git add .
+   26  git commit -m 'Removed html and added js file'
+   28  git log
+   29  git checkout 46de6692d164682b6890d54a9189cd4fd2f5c388
+   30  git --version
+   31  git config list
+   32  git config --list
+   33  git config --list
+   34  git config --global init.defaultBranch main
+   43  git status
+   48  mkdir git-practice-user_name
+   49  init git-practice-user_name/
+   50  git init git-practice-user_name/
+   55  git status
+   56  git commit -m 'create new files'
+   57  git log
+   59  git log
+   60  git status
+   64  git status
+   66  rm -rf .git
+   67  git status
+   69  git status
+   70  git init
+   71  git status
+   72  git add file_1.txt
+   73  git add file_2.txt
+   74  git status
+   75  git add Eric_Antillon_FERPA.pdf 
+   76  git add Eric_Future_Use.pdf 
+   77  git add git-practice-user_name/
+   78  git status
+   79  git status
+   80  git add git-practice-ericant/
+   81  git status
+   82  cd git-practice-ericant/
+   83  git status
+   87  git add file_1.txt file_2.txt
+   88  git commit .
+   89  git commit -m 'create new files'
+   90  git add .
+   91  git commit 'edited txt files'
+   92  git commit -m 'edited txt files'
+   93  cd STAT386/git-practice-ericant/
+   95  mkdir vscode-git
+   96  cd vscode-git/
+   98  git config --list
+   99  git config --list
+  100  git config --global --unset use.name
+  101  git config user.name "Eric Antillon"
+  102  git config --global user.name "Eric Antillon"
+  103  git config --global --list
+  105  rm -rf vscode-git/
+  106  rm -rf vscode-git/
+  108  rm -rf git-practice-ericant/
+  113  git status
+  114  cd vscode-git/
+  115  git status
+  117  git remote -v
+  119  git remote -v
+  120  git remote set-url origin https://github.com/ericanti/my-blog.git
+  121  git remote -v
+  122  git add .
+  123  git commit -m "Adding theme to my repo"
+  124  git push -u origin main
+  154  mkdir git-practice-ericanti
+  155  cd git-practice-ericanti/
+  156  git init
+  158  git status
+  161  git status
+  162  git add .
+  163  git status
+  164  git commit -m "create new files"
+  165  git status
+  166  git log
+  167  git status
+  168  git add file_1.txt
+  169  git commit file_2.txt
+  170  git commit file_1.txt -m "Added message in file_1"
+  171  git status
+  172  git add file_2.txt 
+  173  git commit file_2.txt -m "Added message in file_2"
+  174  git log
+  176  git status
+  177  git add .
+  178  git commit -m "Added title in Readme"
+  179  touch .gitignore
+  180  git add .
+  181  git commit -m "Added gitignore file"
+  183  git status
+  184  git status
+  185  git add .
+  186  git status
+  187  git commit -m "Added file to gitignore"
+  188  git status
+  191  git rm --cached api-keys.txt
+  193  git rm --cached api-keys.txt
+  195  cd STAT386/git-practice-ericanti/
+  196  git status
+  199  mkdir git-practice-ericanti
+  200  cd git-practice-ericanti/
+  201  git init
+  203  git status
+  206  git status
+  207  git add .
+  208  git commit -m "create new files"
+  209  git status
+  210  git log
+  211  git status
+  212  git add file_1.txt
+  213  git commit -m "message added to file_1.txt"
+  214  git add file_2.txt
+  215  git commit -m "message added to file_2.txt"
+  217  git add .
+  218  git commit -m "create readme"
+  219  touch .gitignore
+  220  git status
+  221  git add .
+  222  git commit -m "create .gitignore"
+  223  git status
+  225  git status
+  226  git status
+  227  git branch [features]
+  228  git branch features
+  229  git switch features
+  230  git log
+  232  git add .
+  233  git commit -m "add empty file"
+  234  git add .
+  235  git commit -m "added text to new_features"
+  236  git switch main
+  238  git merge features
+  239  git status
+  240  git add .
+  241  git commit -m "create file_1 and merge"
+  242  git status
+  243  git log
+  244  git add .
+  245  git commit -m "No new features"
+  246  git switch features
+  247  git add .
+  248  git commit -m "New text"
+  249  git switch main
+  250  git merge features
+  251  git add .
+  252  git commit -m "Merged"
+  253  git rm features
+  254  git -d features
+  255  git branch -d features
+  256  git remote add origin git@github.com:ericanti/git-practice-ericanti.git
+  257  git push -u origin main
+  258  git branch features
+  259  git switch features
+  260  git log
+  261  git commit -m "this will have features"
+  262  git add .
+  263  git commit -m "this will have features"
+  264  git switch main
+  265  git add .
+  266  git commit -m "added a line of text"
+  267  git merge features
+  268  git log
+  269  git add .
+  270  git commit -m "no new changes"
+  271  git switch features
+  272  git add .
+  273  git commit -m "New text"
+  274  git switch main
+  275  git merge features
+  276  git add .
+  277  git commit "resolved error while merging"
+  278  git commit -m "resolved error while merging"
+  279  git branch -d features
+  280  git status
+  281  git push -u origin main
+  282  git config --list
+  283  cd STAT386/git-practice-ericanti/
+  284  git status
+  285  git clone git@github.com:ericanti/git-practice-shupe64.git
+  286  cd STAT386/git-practice-shupe64/
+  287  git branch feature-ericanti
+  288  git touch eric_features.txt
+  290  git add .
+  291  git commit -m "Added eric features"
+  292  git push origin feature-ericanti
+  293  git switch feature-ericanti
+  295  git add .
+  296  git commit -m "added features"
+  297  git push origin feature-ericanti
+  298  cd STAT386/git-practice-ericanti/
+  299  git pull
+  300  cd STAT386/git-practice-ericanti/
+  301  git log --oneline > gitlog.txt
+  302  history | grep git > history.txt

@@ -1,0 +1,19 @@
+831e30b Merge pull request #1 from shupe64/feature-shupe64
+0edfa8c edit text in file_1.txt and file_2.txt
+f9c92ab resolved error while merging
+5fa5881 New text
+120ec16 no new changes
+be24a8c Merge branch 'features' "Merge message"
+c41cba6 added a line of text
+227ad64 this will have features
+42e18e6 Merged
+2082fd4 New text
+8aae056 No new features
+cbfefe1 create file_1 and merge
+9f24b91 added text to new_features
+7b36628 add empty file
+a3929e8 create .gitignore
+0d32185 create readme
+381892e message added to file_2.txt
+6dbbd8d message added to file_1.txt
+90b5d3b create new files
